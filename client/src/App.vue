@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div class="w-screen h-14 flex justify-between space-x-12 items-center px-10">
+    <div class="h-14 flex justify-between space-x-12 items-center px-10">
       <h2>AL<span class="text-primary">CAMPO</span>COMPRO</h2>
       <input type="text" placeholder="Buscar" class="w-2/5 border-black rounded border-2 h-7 p-2">
       <div class="links">
