@@ -5,7 +5,7 @@
 
             <!-- Left -->
             <div class="text-left mt-10">
-                <h3 class="font-bold text-white mb-10 text-2xl">AL<span class="text-primary">CAMPO</span>COMPRO</h3>
+                <h3 class="font-bold text-white mb-10 text-2xl"><span class="text-primary">MERCADO</span>CAMPESINO</h3>
                 <p class="text-white text-opacity-60">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi et voluptatibus veniam, excepturi non similique.</p>
             </div>
 
@@ -13,7 +13,7 @@
             <div class="grid grid-cols-3 gap-x-8 text-left mt-10">
                 <div class="flex flex-col">
                     <h5 class="text-white text-opacity-60 font-bold mb-10">Paginas</h5>
-                    <a href="#" class="text-white font-bold text-sm">Categorias</a>
+                    <a href="/categorias" class="text-white font-bold text-sm">Categorias</a>
                     <a href="#" class="text-white font-bold text-sm">Vender</a>
                     <a href="#" class="text-white font-bold text-sm">Ayuda</a>
                 </div>

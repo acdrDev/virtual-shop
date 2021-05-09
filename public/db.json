@@ -1,0 +1,198 @@
+[
+    {
+        "id": 1,
+        "title": "Queso",
+        "price": 5000,
+        "description": "libra",
+        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+    },
+    {
+        "id": 2,
+        "title": "Cuajada",
+        "price": 5500,
+        "description": "libra",
+        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+    },
+    {
+        "id": 3,
+        "title": "Yogur",
+        "price": 10000,
+        "description": "2 litros",
+        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+    },
+    {
+        "id": 4,
+        "title": "Avena",
+        "price": 8000,
+        "description": "2 litros",
+        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+    },
+    {
+        "id": 5,
+        "title": "Harina de Maíz",
+        "price": 1700,
+        "description": "libra",
+        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+    },
+    {
+        "id": 6,
+        "title": "Trigo",
+        "price": 1600,
+        "description": "libra",
+        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+    },
+    {
+        "id": 7,
+        "title": "Frijol",
+        "price": 2000,
+        "description": "libra",
+        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+    },
+    {
+        "id": 8,
+        "title": "Arroz",
+        "price": 1500,
+        "description": "1 libra",
+        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+    },
+    {
+        "id": 9,
+        "title": "Quinoa",
+        "price": 2000,
+        "description": "1 kilo",
+        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+    },
+    {
+        "id": 10,
+        "title": "Miel de abejas",
+        "price": 5500,
+        "description": "libra",
+        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+    },
+    {
+        "id": 11,
+        "title": "Tomates",
+        "price": 1000,
+        "description": "libra",
+        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+    },
+    {
+        "id": 12,
+        "title": "Cebolla larga",
+        "price": 1500,
+        "description": "libra",
+        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+    },
+    {
+        "id": 13,
+        "title": "Zanahoria",
+        "price": 1200,
+        "description": "libra",
+        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+    },
+    {
+        "id": 14,
+        "title": "Naranja tangelo",
+        "price": 6000,
+        "description": "12 naranjas tangelo",
+        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+    },
+    {
+        "id": 15,
+        "title": "Mandarina",
+        "price": 6000,
+        "description": "12 mandarinas",
+        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+    },
+    {
+        "id": 16,
+        "title": "Papa",
+        "price": 700,
+        "description": "libra",
+        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+    },
+    {
+        "id": 17,
+        "title": "Alverja",
+        "price": 3600,
+        "description": "libra",
+        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+    },
+    {
+        "id": 18,
+        "title": "Espinaca",
+        "price": 2000,
+        "description": "libra",
+        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+    },
+    {
+        "id": 19,
+        "title": "Acelga",
+        "price": 2000,
+        "description": "libra",
+        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+    },
+    {
+        "id": 20,
+        "title": "Plátano",
+        "price": 1000,
+        "description": "Unidad",
+        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+    },
+    {
+        "id": 21,
+        "title": "Cebolla Cabezona",
+        "price": 1600,
+        "description": "libra",
+        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+    },
+    {
+        "id": 22,
+        "title": "Papa criolla",
+        "price": 3000,
+        "description": "libra",
+        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+    },
+    {
+        "id": 23,
+        "title": "Papaya",
+        "price": 3000,
+        "description": "1 unidad",
+        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+    },
+    {
+        "id": 24,
+        "title": "Limón mandarino",
+        "price": 2000,
+        "description": "12 limonés mandarinos",
+        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+    },
+    {
+        "id": 25,
+        "title": "Lulo",
+        "price": 1500,
+        "description": "libra",
+        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+    },
+    {
+        "id": 26,
+        "title": "Aguacate",
+        "price": 2000,
+        "description": "Unidad",
+        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+    },
+    {
+        "id": 27,
+        "title": "Yuca",
+        "price": 7000,
+        "description": "libra",
+        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+    },
+    {
+        "id": 28,
+        "title": "Guayaba",
+        "price": 1000,
+        "description": "libra",
+        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+    }
+]
