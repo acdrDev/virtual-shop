@@ -6,7 +6,7 @@
     <div class="h-44 bg-cover" :style="imageHandler()"></div>
     <div class="px-3 flex flex-col">
       <a href="#" class="font-bold mt-2 mb-1 text-md">{{ title }}</a>
-      <span class="text-primary">${{ price }}</span>
+      <span class="text-secundary">${{ price }}</span>
       <p class="font-light text-sm text-justify mt-1">
         {{ description }}
       </p>

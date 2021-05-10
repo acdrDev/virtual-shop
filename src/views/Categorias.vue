@@ -77,7 +77,7 @@ export default {
   },
   async created(){
     //Request before at created the DOM
-    this.products = await fetch("https://mercadoscampesinosdelmeta.com/db.json").then(res => res.json())
+    this.products = await fetch("http://localhost:8080/db.json").then(res => res.json())
   },
   methods: {
     filterHandler() {
