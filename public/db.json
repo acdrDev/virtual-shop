@@ -4,195 +4,223 @@
         "title": "Queso",
         "price": 5000,
         "description": "libra",
-        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+        "image": "cheese-3463368_1280.jpg",
+        "categoria": "lácteos"
     },
     {
         "id": 2,
         "title": "Cuajada",
         "price": 5500,
         "description": "libra",
-        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+        "image": "tofu-5345869_1280.jpg",
+        "categoria": "lácteos"
     },
     {
         "id": 3,
         "title": "Yogur",
         "price": 10000,
         "description": "2 litros",
-        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+        "image": "raspberries-1925178_1280.jpg",
+        "categoria": "lácteos"
     },
     {
         "id": 4,
         "title": "Avena",
         "price": 8000,
         "description": "2 litros",
-        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+        "image": "oat-1391682_1280.jpg",
+        "categoria": "cereales"
     },
     {
         "id": 5,
         "title": "Harina de Maíz",
         "price": 1700,
         "description": "libra",
-        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+        "image": "harina-de-maíz.jpg",
+        "categoria": "cereales"
     },
     {
         "id": 6,
         "title": "Trigo",
         "price": 1600,
         "description": "libra",
-        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+        "image": "bread-1510298_1280.jpg",
+        "categoria": "cereales"
     },
     {
         "id": 7,
         "title": "Frijol",
         "price": 2000,
         "description": "libra",
-        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+        "image": "221.png",
+        "categoria": "granos"
     },
     {
         "id": 8,
         "title": "Arroz",
         "price": 1500,
         "description": "1 libra",
-        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+        "image": "rice-498688_1280.jpg",
+        "categoria": "granos"
     },
     {
         "id": 9,
         "title": "Quinoa",
         "price": 2000,
         "description": "1 kilo",
-        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+        "image": "quinoa-405538_1280.jpg",
+        "categoria": "granos"
     },
     {
         "id": 10,
         "title": "Miel de abejas",
         "price": 5500,
         "description": "libra",
-        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+        "image": "honey-352205_1280.jpg",
+        "categoria": "otros"
     },
     {
         "id": 11,
         "title": "Tomates",
         "price": 1000,
         "description": "libra",
-        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+        "image": "tomatoes-769999_1280.jpg",
+        "categoria": "verduras y frutas"
     },
     {
         "id": 12,
         "title": "Cebolla larga",
         "price": 1500,
         "description": "libra",
-        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+        "image": "324.png",
+        "categoria": "verduras y frutas"
     },
     {
         "id": 13,
         "title": "Zanahoria",
         "price": 1200,
         "description": "libra",
-        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+        "image": "391.png",
+        "categoria": "verduras y frutas"
     },
     {
         "id": 14,
         "title": "Naranja tangelo",
         "price": 6000,
         "description": "12 naranjas tangelo",
-        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+        "image": "241.png",
+        "categoria": "verduras y frutas"
     },
     {
         "id": 15,
         "title": "Mandarina",
         "price": 6000,
         "description": "12 mandarinas",
-        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+        "image": "235.png",
+        "categoria": "verduras y frutas"
     },
     {
         "id": 16,
         "title": "Papa",
         "price": 700,
         "description": "libra",
-        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+        "image": "388.png",
+        "categoria": "verduras y frutas"
     },
     {
         "id": 17,
         "title": "Alverja",
         "price": 3600,
         "description": "libra",
-        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+        "image": "alverja-cascara.jpg",
+        "categoria": "verduras y frutas"
     },
     {
         "id": 18,
         "title": "Espinaca",
         "price": 2000,
         "description": "libra",
-        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+        "image": "347.png",
+        "categoria": "verduras y frutas"
     },
     {
         "id": 19,
         "title": "Acelga",
         "price": 2000,
         "description": "libra",
-        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+        "image": "307.png",
+        "categoria": "verduras y frutas"
     },
     {
         "id": 20,
         "title": "Plátano",
         "price": 1000,
         "description": "Unidad",
-        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+        "image": "330.png",
+        "categoria": "verduras y frutas"
     },
     {
         "id": 21,
         "title": "Cebolla Cabezona",
         "price": 1600,
         "description": "libra",
-        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+        "image": "203.png",
+        "categoria": "verduras y frutas"
     },
     {
         "id": 22,
         "title": "Papa criolla",
         "price": 3000,
         "description": "libra",
-        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+        "image": "243.png",
+        "categoria": "verduras y frutas"
     },
     {
         "id": 23,
         "title": "Papaya",
         "price": 3000,
         "description": "1 unidad",
-        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+        "image": "247.png",
+        "categoria": "verduras y frutas"
     },
     {
         "id": 24,
         "title": "Limón mandarino",
         "price": 2000,
         "description": "12 limonés mandarinos",
-        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+        "image": "231.png",
+        "categoria": "verduras y frutas"
     },
     {
         "id": 25,
         "title": "Lulo",
         "price": 1500,
         "description": "libra",
-        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+        "image": "fruit-5435352_1280.jpg",
+        "categoria": "verduras y frutas"
     },
     {
         "id": 26,
         "title": "Aguacate",
         "price": 2000,
         "description": "Unidad",
-        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+        "image": "503.png",
+        "categoria": "verduras y frutas"
     },
     {
         "id": 27,
         "title": "Yuca",
         "price": 7000,
         "description": "libra",
-        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+        "image": "291.png",
+        "categoria": "verduras y frutas"
     },
     {
         "id": 28,
         "title": "Guayaba",
         "price": 1000,
         "description": "libra",
-        "image": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2020/07/27/tomates.jpeg"
+        "image": "propiedades-de-la-guayaba-60127dbf2d012.jpg",
+        "categoria": "verduras y frutas"
     }
 ]

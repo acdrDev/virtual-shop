@@ -27,7 +27,7 @@ export default {
   },
   methods: {
     imageHandler() {
-      return `background-image: url('${this.image}')`;
+      return `background-image: url('http://localhost:8080/upload/${this.image}')`;
     },
     shadowHandler() {
       if (this.shadow) {
