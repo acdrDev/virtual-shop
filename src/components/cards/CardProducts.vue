@@ -19,7 +19,7 @@
 export default {
   name: "CardProducts",
   props: {
-    title: String,
+    name: String,
     price: Number,
     description: String,
     image: String,
@@ -27,7 +27,7 @@ export default {
   },
   methods: {
     imageHandler() {
-      return `background-image: url('http://localhost:8080/upload/${this.image}')`;
+      return `background-image: url('https://mercadoscampesinosdelmeta.com/upload/${this.image}')`;
     },
     shadowHandler() {
       if (this.shadow) {
