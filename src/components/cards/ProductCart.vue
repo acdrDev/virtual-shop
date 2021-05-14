@@ -23,19 +23,26 @@
         <span class="font-semibold">+</span>
       </div>
       <div class="pr-8"><span class="text-xs font-medium">${{ this.price }}</span></div>
-      <div><i class="fas fa-times text-xl cursor-pointer"></i></div>
+      <div><i @click="() => {deleteProduct(id); handlerTotalPrice();}" class="fas fa-times text-xl cursor-pointer"></i></div>
     </div>
   </div>
 </template>
 
 <script>
+//Vuex
+import { mapActions } from 'vuex';
+
 export default {
     name: 'ProductCart',
     props: {
+      id: Number,
       image: String,
       name: String,
       description: String,
       price: Number
+    },
+    methods: {
+      ...mapActions(['deleteProduct', 'handlerTotalPrice']),
     }
 };
 </script>

@@ -23,6 +23,7 @@
             :name="product.title"
             :price="product.price"
             :description="product.description"
+            :product="product"
             :image="product.image"
           />
         </vue-glide-slide>
@@ -97,6 +98,9 @@ import Footer from "@/components/Footer.vue";
 import CardProducts from "@/components/cards/CardProducts.vue";
 import { Glide, GlideSlide } from "vue-glide-js"; //Carousel craeted with Vue-Glide for most information visit the page https://antonreshetov.github.io/vue-glide/
 
+//vuex
+import { mapState } from 'vuex';
+
 export default {
   name: "Home",
   components: {
@@ -113,7 +117,10 @@ export default {
   },
   async created(){
     //Request before at created the DOM
-    this.products = await fetch("https://mercadoscampesinosdelmeta.com/db.json").then(res => res.json())
+    this.products = await fetch(`${this.host}db.json`).then(res => res.json())
   },
+  computed: {
+    ...mapState(['host'])
+  }
 };
 </script>

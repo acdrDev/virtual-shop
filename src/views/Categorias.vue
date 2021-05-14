@@ -49,6 +49,7 @@
             :price="product.price"
             :description="product.description"
             :image="product.image"
+            :product="product"
             :shadow="true"
           />
         </div>

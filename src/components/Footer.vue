@@ -6,7 +6,7 @@
             <!-- Left -->
             <div class="text-left mt-10">
                 <h3 class="font-bold text-white mb-10 text-2xl"><span class="text-primary">MERCADO</span>CAMPESINO</h3>
-                <p class="text-white text-opacity-60">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi et voluptatibus veniam, excepturi non similique.</p>
+                <p class="text-white text-opacity-60">Los mejores productos del campo solo los encuentras en Mercado Campesino.</p>
             </div>
 
             <!-- Right -->
