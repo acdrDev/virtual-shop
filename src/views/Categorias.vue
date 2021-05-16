@@ -25,11 +25,11 @@
                 class="ml-5 text-sm font-light"
                 v-bind:class="{ hidden: this.hidden }"
               >
-                <li class="cursor-pointer">Lácteos</li>
-                <li class="cursor-pointer">Cereales</li>
-                <li class="cursor-pointer">Granos</li>
-                <li class="cursor-pointer">Verduruas y frutas</li>
-                <li class="cursor-pointer">Otros</li>
+                <li class="cursor-pointer" @click="handlerFilter('lácteos')">Lácteos</li>
+                <li class="cursor-pointer" @click="handlerFilter('cereales')">Cereales</li>
+                <li class="cursor-pointer" @click="handlerFilter('granos')">Granos</li>
+                <li class="cursor-pointer" @click="handlerFilter('verduras y frutas')">Verduruas y frutas</li>
+                <li class="cursor-pointer" @click="handlerFilter('otros')">Otros</li>
               </ul>
             </li>
           </ul>
@@ -45,7 +45,7 @@
           <CardProducts
             v-for="product in products"
             v-bind:key="product.id"
-            :name="product.title"
+            :name="product.name"
             :price="product.price"
             :description="product.description"
             :image="product.image"
@@ -65,8 +65,10 @@ import Banner from "@/components/BannerCarousel.vue";
 import Footer from "@/components/Footer.vue";
 import CardProducts from "@/components/cards/CardProducts.vue";
 
+import axios from "axios";
+
 //Vuex
-import { mapState } from 'vuex';
+import { mapState } from "vuex";
 
 export default {
   name: "Categorias",
@@ -78,26 +80,33 @@ export default {
   data() {
     return {
       hidden: false,
+      data: [],
       products: [],
     };
   },
   async created() {
     //Request before at created the DOM
-    this.products = await fetch(
-      `${this.host}db.json`
-    ).then((res) => res.json());
+    this.data = await axios(
+      `${this.host}controller/productsController.php`
+    ).then((res) => res.data);
+
+    this.products = this.data
   },
-  computed:{
-    ...mapState(['host']),
+  computed: {
+    ...mapState(["host"]),
   },
   methods: {
     filterAnimation() {
-    if (this.hidden) {
-      this.hidden = false;
-    } else {
-      this.hidden = true;
+      if (this.hidden) {
+        this.hidden = false;
+      } else {
+        this.hidden = true;
+      }
+    },
+    handlerFilter(category){
+      let dataComplete = this.data;
+      this.products = dataComplete.filter(product => product.category === category);
     }
-  },
   },
 };
 </script>

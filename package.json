@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "@glidejs/glide": "^3.4.1",
+    "alertifyjs": "^1.13.1",
+    "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "ssri": "^8.0.1",
     "vue": "^2.6.11",

@@ -20,7 +20,7 @@
       <vue-glide :perView="4" v-if="products.length">
         <vue-glide-slide v-for="product in products" :key="product.id">
           <CardProducts
-            :name="product.title"
+            :name="product.name"
             :price="product.price"
             :description="product.description"
             :product="product"
@@ -98,6 +98,8 @@ import Footer from "@/components/Footer.vue";
 import CardProducts from "@/components/cards/CardProducts.vue";
 import { Glide, GlideSlide } from "vue-glide-js"; //Carousel craeted with Vue-Glide for most information visit the page https://antonreshetov.github.io/vue-glide/
 
+import axios from 'axios';
+
 //vuex
 import { mapState } from 'vuex';
 
@@ -117,7 +119,7 @@ export default {
   },
   async created(){
     //Request before at created the DOM
-    this.products = await fetch(`${this.host}db.json`).then(res => res.json())
+    this.products = await axios(`${this.host}controller/productsController.php`).then(res => res.data)
   },
   computed: {
     ...mapState(['host'])
