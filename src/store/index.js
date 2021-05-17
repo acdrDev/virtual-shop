@@ -5,7 +5,7 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-    host: "http://localhost:7070/public/",
+    host: "https://mercadoscampesinosdelmeta.com/",
     cart: [],
     totalPrice: 0,
   },

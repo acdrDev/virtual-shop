@@ -1,9 +1,5 @@
 <?php 
-header("Access-Control-Allow-Origin: *");
-header("Access-Control-Allow-Headers: X-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Request-Method");
-
-$conn = mysqli_connect("localhost", "root", "password", "DB_mercadocampesino");
-mysqli_set_charset($conn, "utf8"); //formato de datos utf8
+require("./conn.php");
 $query = "SELECT * FROM productos";
 $data = mysqli_query($conn, $query);
 $row = mysqli_num_rows($data);

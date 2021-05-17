@@ -47,7 +47,7 @@
               </div>
 
               <!-- Payment section -->
-              <form class="p-5 h-80 bg-gray-800 rounded overflow-visible">
+              <form class="p-5 h-96 bg-gray-800 rounded overflow-visible">
                 <span class="text-xl font-medium text-gray-100 block pb-3"
                   >Detalles de tarjeta</span
                 >
@@ -71,7 +71,7 @@
                   <input
                     type="email"
                     class="focus:outline-none w-full h-6 bg-gray-800 text-white placeholder-gray-300 text-sm border-b border-gray-600 py-4"
-                    placeholder="Giga Tamarashvili"
+                    placeholder="giga@gmail.com"
                     v-model="data.email"
                     required
                   />
@@ -81,7 +81,7 @@
                   <input
                     type="number"
                     class="focus:outline-none w-full h-6 bg-gray-800 text-white placeholder-gray-300 text-sm border-b border-gray-600 py-4"
-                    placeholder="Giga Tamarashvili"
+                    placeholder="312 432 3244"
                     v-model="data.phone"
                     required
                   />
